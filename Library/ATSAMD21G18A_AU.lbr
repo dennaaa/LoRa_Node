@@ -1032,10 +1032,10 @@
 <pin name="PA13" x="-22.86" y="5.08" length="middle"/>
 <pin name="PA14/D2" x="22.86" y="7.62" length="middle" rot="R180"/>
 <pin name="PA15/D5" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="PA16/D11/MOSI" x="22.86" y="-12.7" length="middle" rot="R180"/>
-<pin name="PA17/D13/SCK" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="PA16/D11/MOSI" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA17/D13/SCK" x="22.86" y="-12.7" length="middle" rot="R180"/>
 <pin name="PA18/D10" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="PA19/D12/MISO" x="22.86" y="-15.24" length="middle" rot="R180"/>
+<pin name="PA19/D12/MISO" x="22.86" y="-17.78" length="middle" rot="R180"/>
 <pin name="PA20/D6" x="22.86" y="2.54" length="middle" rot="R180"/>
 <pin name="PA21/D7" x="22.86" y="0" length="middle" rot="R180"/>
 <pin name="PA22/SDA" x="22.86" y="-25.4" length="middle" rot="R180"/>

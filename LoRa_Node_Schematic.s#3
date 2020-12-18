@@ -135,6 +135,8 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
+<text x="246.38" y="5.08" size="2.54" layer="94"> V 0.1</text>
+<text x="246.38" y="5.08" size="2.54" layer="94"> V 0.1</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -150,6 +152,7 @@ DIN A4, landscape with location and doc. field</description>
 </sheet>
 <sheet>
 <plain>
+<text x="246.38" y="5.08" size="2.54" layer="94"> V 0.1</text>
 </plain>
 <instances>
 <instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes">
