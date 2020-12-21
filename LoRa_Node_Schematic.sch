@@ -1094,10 +1094,10 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="PA28" x="-22.86" y="0" length="middle"/>
 <pin name="PA30/SWCLK" x="-22.86" y="-15.24" length="middle"/>
 <pin name="PA31/SWDIO" x="-22.86" y="-17.78" length="middle"/>
-<wire x1="-17.78" y1="43.18" x2="-17.78" y2="-43.18" width="0.1524" layer="94"/>
-<wire x1="-17.78" y1="-43.18" x2="17.78" y2="-43.18" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="-43.18" x2="17.78" y2="43.18" width="0.1524" layer="94"/>
-<wire x1="17.78" y1="43.18" x2="-17.78" y2="43.18" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="43.18" x2="-17.78" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-43.18" x2="17.78" y2="-43.18" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-43.18" x2="17.78" y2="43.18" width="0.254" layer="94"/>
+<wire x1="17.78" y1="43.18" x2="-17.78" y2="43.18" width="0.254" layer="94"/>
 <text x="0" y="39.37" size="2.0828" layer="97" ratio="6" rot="SR0" align="bottom-center">1 of 2</text>
 <text x="0" y="44.45" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
 <text x="0" y="-45.72" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
@@ -1112,10 +1112,10 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="GND_3" x="-17.78" y="-7.62" length="middle" direction="pas"/>
 <pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
 <pin name="GNDANA" x="-17.78" y="-12.7" length="middle" direction="pas"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
+<wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.254" layer="94"/>
 <text x="0" y="14.605" size="2.0828" layer="97" ratio="6" rot="SR0" align="bottom-center">2 of 2</text>
 <text x="0" y="19.05" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
 <text x="0" y="-20.32" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
@@ -1462,10 +1462,10 @@ DIN A4, landscape with location and doc. field</description>
 </packages>
 <symbols>
 <symbol name="AP2112K-3.3">
-<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.2032" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.2032" layer="94"/>
-<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.2032" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
 <text x="0" y="8.89" size="2.08946875" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-10.16" size="2.0883" layer="96" ratio="10" rot="SR0" align="bottom-center">&gt;VALUE</text>
 <pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
@@ -1554,10 +1554,10 @@ DIN A4, landscape with location and doc. field</description>
 </packages>
 <symbols>
 <symbol name="MCP73831T-2ACI/OT">
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.2032" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.2032" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.2032" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
 <text x="0" y="8.89" size="2.08681875" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-15.24" size="2.085940625" layer="96" ratio="10" rot="SR0" align="bottom-center">&gt;VALUE</text>
 <pin name="VDD" x="-17.78" y="2.54" length="middle" direction="pwr"/>
@@ -2155,10 +2155,10 @@ DIN A4, landscape with location and doc. field</description>
 </packages>
 <symbols>
 <symbol name="ZX62D-B-5PA8">
-<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <text x="0" y="11.43" size="1.77961875" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-12.7" size="1.778109375" layer="96" align="bottom-center">&gt;VALUE</text>
 <pin name="VBUS" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
