@@ -273,6 +273,10 @@ UsedLibrary="Library/RFM95W-915S2.lbr"
 UsedLibrary="Library/MCP73831-2ACI_OT.lbr"
 UsedLibrary="Library/AP2112K-3.3.lbr"
 UsedLibrary="Library/ZX62D-B-5PA8.lbr"
+UsedLibrary="Library/SHT40-AD1B-R2.lbr"
+UsedLibrary="Library/S2B-PH-SM4-TB_LF_SN.lbr"
+UsedLibrary="Library/ABS07-32.768KHZ-T.lbr"
+UsedLibrary="Library/KMR231NGLFS.lbr"
 
 [Win_1]
 Type="Control Panel"

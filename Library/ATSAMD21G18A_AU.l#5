@@ -1068,7 +1068,7 @@
 <wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.1524" layer="94"/>
 <wire x1="12.7" y1="17.78" x2="-12.7" y2="17.78" width="0.1524" layer="94"/>
-<text x="0" y="15.24" size="2.0828" layer="97" ratio="6" rot="SR0" align="bottom-center">2 of 2</text>
+<text x="0" y="13.97" size="2.0828" layer="97" ratio="6" rot="SR0" align="bottom-center">2 of 2</text>
 <text x="0" y="19.05" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
 <text x="0" y="-20.32" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
 </symbol>

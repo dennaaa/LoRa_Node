@@ -1051,8 +1051,8 @@
 <wire x1="43.18" y1="-78.74" x2="43.18" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="43.18" y1="7.62" x2="7.62" y2="7.62" width="0.1524" layer="94"/>
 <text x="25.4" y="3.81" size="2.0828" layer="97" ratio="6" rot="SR0" align="bottom-center">1 of 2</text>
-<text x="25.4" y="11.684" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
-<text x="25.4" y="9.144" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
+<text x="25.4" y="8.89" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
+<text x="25.4" y="-81.28" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
 </symbol>
 <symbol name="ATSAMD21G18A-AU_A">
 <pin name="VDDANA" x="2.54" y="0" length="middle" direction="pwr"/>
