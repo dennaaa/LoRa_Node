@@ -148,8 +148,8 @@
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
 <wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.1524" layer="94"/>
-<text x="0" y="-10.16" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
-<text x="0" y="8.89" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
+<text x="0" y="8.89" size="2.0828" layer="95" ratio="6" rot="SR0" align="bottom-center">&gt;Name</text>
+<text x="0" y="-10.16" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
