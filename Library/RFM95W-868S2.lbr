@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -58,7 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="XCVR_RFM95W-915S2">
+<package name="XCVR_RFM95W-868S2">
 <wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
 <wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
 <wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
@@ -100,7 +100,7 @@
 </package>
 </packages>
 <symbols>
-<symbol name="RFM95W-915S2">
+<symbol name="RFM95W-868S2">
 <wire x1="-12.7" y1="15.24" x2="-12.7" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-15.24" x2="12.7" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-15.24" x2="12.7" y2="15.24" width="0.254" layer="94"/>
@@ -124,13 +124,13 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RFM95W-915S2" prefix="U">
+<deviceset name="RFM95W-868S2" prefix="U">
 <description>RFM95(W) - Low Power Long Range Transceiver Module V1.0 &lt;a href="https://pricing.snapeda.com/parts/RFM95W-915S2/RF%20Solutions/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
-<gate name="G$1" symbol="RFM95W-915S2" x="0" y="0"/>
+<gate name="G$1" symbol="RFM95W-868S2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XCVR_RFM95W-915S2">
+<device name="" package="XCVR_RFM95W-868S2">
 <connects>
 <connect gate="G$1" pin="3.3V" pad="13"/>
 <connect gate="G$1" pin="ANT" pad="9"/>
@@ -149,10 +149,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="AVAILABILITY" value="Bad"/>
-<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz LoRa™ Transceiver Module 915MHz Surface Mount "/>
+<attribute name="DESCRIPTION" value=" General ISM &lt; 1GHz LoRa™ Transceiver Module 868MHz Surface Mount "/>
 <attribute name="MF" value="RF Solutions"/>
-<attribute name="MP" value="RFM95W-915S2"/>
+<attribute name="MP" value="RFM95W-868S2"/>
 <attribute name="PACKAGE" value="SMD-16 RF Solutions"/>
 <attribute name="PRICE" value="None"/>
 </technology>
