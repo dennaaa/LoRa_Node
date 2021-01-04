@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11314,76 +11314,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="S2B-PH-SM4-TB_LF_SN">
-<packages>
-<package name="JST_S2B-PH-SM4-TB(LF)(SN)">
-<wire x1="3.95" y1="0.35" x2="1.9" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-1.9" y1="0.35" x2="-3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="-3.95" y1="0.35" x2="-3.95" y2="-3.65" width="0.127" layer="21"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="21"/>
-<wire x1="-2.2" y1="-7.25" x2="2.2" y2="-7.25" width="0.127" layer="21"/>
-<wire x1="3.95" y1="-3.65" x2="3.95" y2="0.35" width="0.127" layer="21"/>
-<wire x1="4.35" y1="-7.7" x2="-4.35" y2="-7.7" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="-7.7" x2="-4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-4.35" y1="0.6" x2="-1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="0.6" x2="-1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="-1.75" y1="2" x2="1.75" y2="2" width="0.05" layer="39"/>
-<wire x1="1.75" y1="2" x2="1.75" y2="0.6" width="0.05" layer="39"/>
-<wire x1="1.75" y1="0.6" x2="4.35" y2="0.6" width="0.05" layer="39"/>
-<wire x1="4.35" y1="0.6" x2="4.35" y2="-7.7" width="0.05" layer="39"/>
-<text x="-3.87423125" y="2.547609375" size="1.27278125" layer="25">&gt;NAME</text>
-<text x="-3.75341875" y="-10.1187" size="1.274540625" layer="27">&gt;VALUE</text>
-<wire x1="3.95" y1="0.35" x2="3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-7.25" x2="-3.95" y2="-7.25" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-7.25" x2="-3.95" y2="0.35" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="0.35" x2="3.95" y2="0.35" width="0.127" layer="51"/>
-<circle x="-2.15" y="1.35" radius="0.1" width="0.3" layer="51"/>
-<smd name="2" x="1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="1" x="-1" y="0" dx="1" dy="3.5" layer="1" rot="R180"/>
-<smd name="S2" x="3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-<smd name="S1" x="-3.35" y="-5.75" dx="1.5" dy="3.4" layer="1" rot="R180"/>
-</package>
-</packages>
-<symbols>
-<symbol name="S2B-PH-SM4-TB(LF)(SN)">
-<text x="0" y="6.35" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-10.16" y="2.54" length="middle" direction="pas"/>
-<pin name="2" x="-10.16" y="0" length="middle" direction="pas"/>
-<pin name="SHIELD" x="-10.16" y="-2.54" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="S2B-PH-SM4-TB(LF)(SN)" prefix="J">
-<description>PH Series 2 Position 2 mm Pitch Surface Mount Side Entry Shrouded Header </description>
-<gates>
-<gate name="G$1" symbol="S2B-PH-SM4-TB(LF)(SN)" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="JST_S2B-PH-SM4-TB(LF)(SN)">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm) "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="455-1749-1-ND"/>
-<attribute name="MF" value="JST Sales"/>
-<attribute name="MP" value="S2B-PH-SM4-TB(LF)(SN)"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PRTR5V0U2X_215">
 <packages>
 <package name="SOT143B">
@@ -14411,13 +14341,92 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="B2B-PH-K-S_LF_SN">
+<packages>
+<package name="JST_B2B-PH-K-S(LF)(SN)">
+<wire x1="-2.95" y1="-2.25" x2="-2.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="2.25" x2="2.95" y2="2.25" width="0.127" layer="51"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="2.95" y1="-2.25" x2="-2.95" y2="-2.25" width="0.127" layer="51"/>
+<wire x1="-2.95" y1="2.25" x2="2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="2.25" x2="2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="2.95" y1="-2.25" x2="-2.95" y2="-2.25" width="0.127" layer="21"/>
+<wire x1="-2.95" y1="-2.25" x2="-2.95" y2="2.25" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-2.5" x2="-3.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="-3.2" y1="2.5" x2="3.2" y2="2.5" width="0.05" layer="39"/>
+<wire x1="3.2" y1="2.5" x2="3.2" y2="-2.5" width="0.05" layer="39"/>
+<wire x1="3.2" y1="-2.5" x2="-3.2" y2="-2.5" width="0.05" layer="39"/>
+<text x="-3.20481875" y="2.60391875" size="1.01753125" layer="25">&gt;NAME</text>
+<text x="-3.30138125" y="-3.601509375" size="1.01643125" layer="27">&gt;VALUE</text>
+<circle x="3.6" y="-0.5" radius="0.1" width="0.2" layer="21"/>
+<circle x="3.6" y="-0.5" radius="0.1" width="0.2" layer="51"/>
+<pad name="1" x="1" y="-0.55" drill="0.86" shape="square" rot="R180"/>
+<pad name="2" x="-1" y="-0.55" drill="0.86" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B2B-PH-K-S(LF)(SN)">
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<text x="-0.004359375" y="3.302" size="1.778" layer="95" align="bottom-center">&gt;NAME</text>
+<text x="-0.004590625" y="-7.62" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" length="middle" direction="pas"/>
+<pin name="2" x="-7.62" y="-2.54" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B2B-PH-K-S(LF)(SN)" prefix="J">
+<description>PH Series 2 Position 2 mm Pitch Through Hole Top Entry Shrouded Header &lt;a href="https://pricing.snapeda.com/parts/B2B-PH-K-S%28LF%29%28SN%29/JST%20Sales/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B2B-PH-K-S(LF)(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B2B-PH-K-S(LF)(SN)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Good"/>
+<attribute name="DESCRIPTION" value=" Connector Header Through Hole 2 position 0.079 (2.00mm) "/>
+<attribute name="MF" value="JST Sales"/>
+<attribute name="MP" value="B2B-PH-K-S(LF)(SN)"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/B2B-PH-K-S(LF)(SN)/?ref=eda"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0" drill="0">
+<class number="0" name="default" width="0.23" drill="0">
+<clearance class="0" value="0.254"/>
+</class>
+<class number="1" name="Power" width="0.254" drill="0">
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
+</class>
+<class number="2" name="Diff" width="0.165" drill="0">
+<clearance class="0" value="0.5"/>
+<clearance class="1" value="0.5"/>
+<clearance class="2" value="0.18"/>
+</class>
+<class number="3" name="Antenna" width="0.21" drill="0">
+<clearance class="0" value="0.5"/>
+<clearance class="1" value="0.2"/>
+<clearance class="2" value="0.5"/>
+<clearance class="3" value="0.5"/>
 </class>
 </classes>
 <parts>
@@ -14455,7 +14464,6 @@ Source: www.kingbright.com</description>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="100n"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="330R"/>
-<part name="J2" library="S2B-PH-SM4-TB_LF_SN" deviceset="S2B-PH-SM4-TB(LF)(SN)" device=""/>
 <part name="D1" library="PRTR5V0U2X_215" deviceset="PRTR5V0U2X,215" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
 <part name="R5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
@@ -14542,6 +14550,7 @@ Source: www.kingbright.com</description>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="J3" library="B2B-PH-K-S_LF_SN" deviceset="B2B-PH-K-S(LF)(SN)" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14718,7 +14727,7 @@ Dennis Sohns</text>
 <pinref part="R3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="U1" gate="A" pin="EPAD"/>
 <wire x1="58.42" y1="139.7" x2="43.18" y2="139.7" width="0.1524" layer="91"/>
@@ -14785,7 +14794,7 @@ Dennis Sohns</text>
 <wire x1="121.92" y1="27.94" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="XIN32" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA00/XIN32"/>
 <wire x1="58.42" y1="132.08" x2="33.02" y2="132.08" width="0.1524" layer="91"/>
@@ -14797,7 +14806,7 @@ Dennis Sohns</text>
 <junction x="33.02" y="137.16"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="XOUT32" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="PA01/XOUT32"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
@@ -14807,20 +14816,6 @@ Dennis Sohns</text>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="17.78" y1="144.78" x2="17.78" y2="137.16" width="0.1524" layer="91"/>
 <junction x="17.78" y="137.16"/>
-</segment>
-</net>
-<net name="USB_D+" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA24/USB_D-"/>
-<wire x1="58.42" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="43.18" y="121.92" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="USB_D-" class="0">
-<segment>
-<pinref part="U1" gate="A" pin="PA25/USB_D+"/>
-<wire x1="58.42" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="43.18" y="119.38" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
@@ -15079,14 +15074,14 @@ Dennis Sohns</text>
 <junction x="185.42" y="50.8"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="RESETN_R" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="COM"/>
 <wire x1="60.96" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="U5" gate="A" pin="VDD"/>
 <wire x1="220.98" y1="54.61" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
@@ -15115,7 +15110,7 @@ Dennis Sohns</text>
 <pinref part="U2" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="ANTENNA_L" class="3">
 <segment>
 <pinref part="L2" gate="G$1" pin="2"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -15126,7 +15121,7 @@ Dennis Sohns</text>
 <junction x="195.58" y="106.68"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="ANTENNA" class="3">
 <segment>
 <pinref part="L2" gate="G$1" pin="1"/>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -15137,6 +15132,20 @@ Dennis Sohns</text>
 <wire x1="160.02" y1="127" x2="160.02" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="160.02" y1="106.68" x2="175.26" y2="106.68" width="0.1524" layer="91"/>
 <junction x="175.26" y="106.68"/>
+</segment>
+</net>
+<net name="USB_D_P" class="2">
+<segment>
+<wire x1="58.42" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PA25/USB_D+"/>
+<label x="43.18" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="USB_D_N" class="2">
+<segment>
+<wire x1="58.42" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="PA24/USB_D-"/>
+<label x="43.18" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -15189,10 +15198,6 @@ Dennis Sohns</text>
 <instance part="R1" gate="G$1" x="63.5" y="124.46" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="124.46" size="1.778" layer="95" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="66.548" y="124.46" size="1.778" layer="96" rot="R90" align="bottom-center"/>
-</instance>
-<instance part="J2" gate="G$1" x="203.2" y="43.18" smashed="yes">
-<attribute name="NAME" x="203.2" y="49.53" size="1.778" layer="95" align="bottom-center"/>
-<attribute name="VALUE" x="203.2" y="35.56" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="D1" gate="G$1" x="83.82" y="142.24" smashed="yes">
 <attribute name="NAME" x="81.27258125" y="134.699640625" size="1.7832" layer="95"/>
@@ -15356,11 +15361,15 @@ Dennis Sohns</text>
 <instance part="GND27" gate="1" x="177.8" y="127" smashed="yes">
 <attribute name="VALUE" x="175.26" y="124.46" size="1.778" layer="96"/>
 </instance>
+<instance part="J3" gate="G$1" x="200.66" y="45.72" smashed="yes">
+<attribute name="NAME" x="200.655640625" y="49.022" size="1.778" layer="95" align="bottom-center"/>
+<attribute name="VALUE" x="200.655409375" y="38.1" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="USB_D+" class="0">
+<net name="USB_D_P" class="2">
 <segment>
 <wire x1="106.68" y1="152.4" x2="86.36" y2="152.4" width="0.1524" layer="91"/>
 <label x="106.68" y="152.4" size="1.778" layer="95" align="bottom-right"/>
@@ -15371,7 +15380,7 @@ Dennis Sohns</text>
 <junction x="86.36" y="152.4"/>
 </segment>
 </net>
-<net name="USB_D-" class="0">
+<net name="USB_D_N" class="2">
 <segment>
 <wire x1="106.68" y1="154.94" x2="91.44" y2="154.94" width="0.1524" layer="91"/>
 <label x="106.68" y="154.94" size="1.778" layer="95" align="bottom-right"/>
@@ -15382,7 +15391,7 @@ Dennis Sohns</text>
 <junction x="91.44" y="154.94"/>
 </segment>
 </net>
-<net name="VBUS" class="0">
+<net name="VBUS" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="VBUS"/>
 <wire x1="53.34" y1="157.48" x2="78.74" y2="157.48" width="0.1524" layer="91"/>
@@ -15435,7 +15444,7 @@ Dennis Sohns</text>
 <pinref part="V14" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="147.32" x2="66.04" y2="147.32" width="0.1524" layer="91"/>
@@ -15509,14 +15518,10 @@ Dennis Sohns</text>
 <pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="43.18" x2="185.42" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="185.42" y1="43.18" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="J2" gate="G$1" pin="SHIELD"/>
-<wire x1="185.42" y1="40.64" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="40.64" x2="185.42" y2="40.64" width="0.1524" layer="91"/>
-<junction x="185.42" y="40.64"/>
+<wire x1="185.42" y1="43.18" x2="185.42" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
+<pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="12"/>
@@ -15565,7 +15570,7 @@ Dennis Sohns</text>
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="USB_SHIELD" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="SHIELD"/>
 <wire x1="53.34" y1="142.24" x2="55.88" y2="142.24" width="0.1524" layer="91"/>
@@ -15582,7 +15587,7 @@ Dennis Sohns</text>
 <junction x="63.5" y="132.08"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="VDDCORE" class="1">
 <segment>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="U1" gate="B" pin="VDDCORE"/>
@@ -15590,7 +15595,7 @@ Dennis Sohns</text>
 <wire x1="177.8" y1="142.24" x2="185.42" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="VDDANA" class="1">
 <segment>
 <pinref part="U1" gate="B" pin="VDDANA"/>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -15604,14 +15609,14 @@ Dennis Sohns</text>
 <pinref part="C12" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="3V3_EN" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="EN"/>
 <wire x1="187.96" y1="86.36" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="1">
 <segment>
 <pinref part="D2" gate="G$1" pin="12"/>
 <wire x1="157.48" y1="104.14" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
@@ -15628,34 +15633,34 @@ Dennis Sohns</text>
 <junction x="114.3" y="88.9"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="45.72" x2="185.42" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="45.72" x2="185.42" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="V12" gate="G$1" pin="VBAT"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="VBAT_PROG" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PROG"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="VBAT_STAT" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="STAT"/>
 <wire x1="53.34" y1="78.74" x2="55.88" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="VBAT_STAT_R" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="1">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U1" gate="B" pin="VDDIO_2"/>
