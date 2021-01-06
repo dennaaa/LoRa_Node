@@ -37,7 +37,7 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
@@ -63,10 +63,10 @@
 <wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="21"/>
 <rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="21"/>
 <circle x="-4.75" y="0" radius="0.25" width="0.2" layer="21"/>
-<wire x1="-5" y1="5" x2="5" y2="5" width="0.05" layer="39"/>
-<wire x1="5" y1="5" x2="5" y2="-9" width="0.05" layer="39"/>
-<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.05" layer="39"/>
-<wire x1="-5" y1="-9" x2="-5" y2="5" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.05" layer="39"/>
+<wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.05" layer="39"/>
 <text x="-3.251890625" y="1.50086875" size="1.270740625" layer="25">&gt;NAME</text>
 <text x="-3.255490625" y="-2.75465" size="1.27215" layer="27">&gt;VALUE</text>
 <smd name="1" x="-3.375" y="0" dx="1.25" dy="2" layer="1"/>
@@ -74,7 +74,7 @@
 <wire x1="3.75" y1="-1" x2="3.75" y2="-5.75" width="0.5" layer="1"/>
 <wire x1="3.75" y1="-5.75" x2="-2.85" y2="-5.75" width="0.5" layer="1"/>
 <wire x1="-2.85" y1="-3.25" x2="-2.85" y2="-5.75" width="0.5" layer="1"/>
-<wire x1="-2.85" y1="-3.25" x2="2" y2="-3.25" width="0.5" layer="1" curve="0.1" cap="flat"/>
+<wire x1="-2.85" y1="-3.25" x2="1.75" y2="-3.25" width="0.5" layer="1"/>
 </package>
 </packages>
 <symbols>

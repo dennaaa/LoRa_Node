@@ -9,25 +9,25 @@
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
@@ -287,7 +287,7 @@ DIN A4, landscape with location and doc. field</description>
 <vertex x="1.4405" y="5.1054"/>
 </polygon>
 <text x="-6.0706" y="2.7432" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <polygon width="0.0254" layer="31">
 <vertex x="-1.6526" y="1.6526"/>
 <vertex x="-1.6526" y="0.1"/>
@@ -13949,6 +13949,37 @@ Source: www.kingbright.com</description>
 <smd name="15" x="7.7" y="5" dx="3" dy="1.4" layer="1"/>
 <smd name="16" x="7.7" y="7" dx="3" dy="1.4" layer="1"/>
 </package>
+<package name="MICROBUILDER_RFMHCW_SMT">
+<circle x="-5.14" y="6.97" radius="0.3" width="0.6096" layer="21"/>
+<wire x1="-8" y1="8" x2="8" y2="8" width="0.127" layer="51"/>
+<wire x1="8" y1="8" x2="8" y2="-8" width="0.127" layer="51"/>
+<wire x1="8" y1="-8" x2="-8" y2="-8" width="0.127" layer="51"/>
+<wire x1="-8" y1="-8" x2="-8" y2="8" width="0.127" layer="51"/>
+<wire x1="-8.1" y1="7.7" x2="-8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="8.1" x2="8.1" y2="8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="8.1" x2="8.1" y2="7.7" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-7.7" x2="-8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="-8.1" y1="-8.1" x2="8.1" y2="-8.1" width="0.127" layer="21"/>
+<wire x1="8.1" y1="-8.1" x2="8.1" y2="-7.7" width="0.127" layer="21"/>
+<smd name="9" x="8.1" y="-7" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="10" x="8.1" y="-5" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="11" x="8.1" y="-3" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="12" x="8.1" y="-1" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="13" x="8.1" y="1" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="14" x="8.1" y="3" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="15" x="8.1" y="5" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="16" x="8.1" y="7" dx="1.5" dy="1" layer="1" rot="R180"/>
+<smd name="1" x="-8.1" y="7" dx="1.5" dy="1" layer="1"/>
+<smd name="2" x="-8.1" y="5" dx="1.5" dy="1" layer="1"/>
+<smd name="3" x="-8.1" y="3" dx="1.5" dy="1" layer="1"/>
+<smd name="4" x="-8.1" y="1" dx="1.5" dy="1" layer="1"/>
+<smd name="5" x="-8.1" y="-1" dx="1.5" dy="1" layer="1"/>
+<smd name="6" x="-8.1" y="-3" dx="1.5" dy="1" layer="1"/>
+<smd name="7" x="-8.1" y="-5" dx="1.5" dy="1" layer="1"/>
+<smd name="8" x="-8.1" y="-7" dx="1.5" dy="1" layer="1"/>
+<text x="-8" y="8.5" size="0.7" layer="25" ratio="18">&gt;NAME</text>
+<text x="-8.1" y="-9" size="0.7" layer="25" ratio="10">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RFM95W-868S2">
@@ -14008,6 +14039,27 @@ Source: www.kingbright.com</description>
 </technology>
 </technologies>
 </device>
+<device name="SMALL" package="MICROBUILDER_RFMHCW_SMT">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="13"/>
+<connect gate="G$1" pin="ANT" pad="9"/>
+<connect gate="G$1" pin="DIO0" pad="14"/>
+<connect gate="G$1" pin="DIO1" pad="15"/>
+<connect gate="G$1" pin="DIO2" pad="16"/>
+<connect gate="G$1" pin="DIO3" pad="11"/>
+<connect gate="G$1" pin="DIO4" pad="12"/>
+<connect gate="G$1" pin="DIO5" pad="7"/>
+<connect gate="G$1" pin="GND" pad="1 8 10"/>
+<connect gate="G$1" pin="MISO" pad="2"/>
+<connect gate="G$1" pin="MOSI" pad="3"/>
+<connect gate="G$1" pin="NSS" pad="5"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="SCK" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -14019,14 +14071,18 @@ Source: www.kingbright.com</description>
 <wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="21"/>
 <rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="21"/>
 <circle x="-4.75" y="0" radius="0.25" width="0.2" layer="21"/>
-<wire x1="-4.25" y1="1.25" x2="4.25" y2="1.25" width="0.05" layer="39"/>
-<wire x1="4.25" y1="1.25" x2="4.25" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="4.25" y1="-1.25" x2="-4.25" y2="-1.25" width="0.05" layer="39"/>
-<wire x1="-4.25" y1="-1.25" x2="-4.25" y2="1.25" width="0.05" layer="39"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.05" layer="39"/>
+<wire x1="5" y1="5" x2="5" y2="-9" width="0.05" layer="39"/>
+<wire x1="5" y1="-9" x2="-5" y2="-9" width="0.05" layer="39"/>
+<wire x1="-5" y1="-9" x2="-5" y2="5" width="0.05" layer="39"/>
 <text x="-3.251890625" y="1.50086875" size="1.270740625" layer="25">&gt;NAME</text>
 <text x="-3.255490625" y="-2.75465" size="1.27215" layer="27">&gt;VALUE</text>
 <smd name="1" x="-3.375" y="0" dx="1.25" dy="2" layer="1"/>
 <smd name="2" x="3.375" y="0" dx="1.25" dy="2" layer="1"/>
+<wire x1="3.75" y1="-1" x2="3.75" y2="-5.75" width="0.5" layer="1"/>
+<wire x1="3.75" y1="-5.75" x2="-2.85" y2="-5.75" width="0.5" layer="1"/>
+<wire x1="-2.85" y1="-3.25" x2="-2.85" y2="-5.75" width="0.5" layer="1"/>
+<wire x1="-2.85" y1="-3.25" x2="2" y2="-3.25" width="0.5" layer="1" curve="0.1" cap="flat"/>
 </package>
 </packages>
 <symbols>
@@ -14472,8 +14528,8 @@ by exp-lbrs.ulp</description>
 <clearance class="1" value="0.254"/>
 </class>
 <class number="2" name="Diff" width="0.165" drill="0">
-<clearance class="0" value="0.5"/>
-<clearance class="1" value="0.5"/>
+<clearance class="0" value="0.254"/>
+<clearance class="1" value="0.254"/>
 <clearance class="2" value="0.18"/>
 </class>
 <class number="3" name="Antenna" width="0.21" drill="0">
@@ -14561,7 +14617,7 @@ by exp-lbrs.ulp</description>
 <part name="V10" library="Supply_special" deviceset="+3V3" device=""/>
 <part name="V12" library="Supply_special" deviceset="VBAT" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U2" library="RFM95W-868S2" deviceset="RFM95W-868S2" device=""/>
+<part name="U2" library="RFM95W-868S2" deviceset="RFM95W-868S2" device="SMALL" value="RFM95W-868S2SMALL"/>
 <part name="ANT1" library="0868AT43A0020E" deviceset="0868AT43A0020E" device=""/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="3p9">
 <spice>

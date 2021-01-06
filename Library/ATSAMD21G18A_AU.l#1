@@ -1056,7 +1056,7 @@
 </symbol>
 <symbol name="ATSAMD21G18A-AU_A">
 <pin name="VDDANA" x="17.78" y="12.7" length="middle" direction="pwr" rot="R180"/>
-<pin name="VDDCORE" x="-17.78" y="2.54" length="middle" direction="pwr"/>
+<pin name="VDDCORE" x="-17.78" y="5.08" length="middle" direction="pwr"/>
 <pin name="VDDIN" x="-17.78" y="12.7" length="middle" direction="pwr"/>
 <pin name="VDDIO_2" x="-17.78" y="7.62" length="middle" direction="pwr"/>
 <pin name="VDDIO" x="-17.78" y="10.16" length="middle" direction="pwr"/>
