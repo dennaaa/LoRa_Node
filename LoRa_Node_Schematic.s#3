@@ -287,7 +287,7 @@ DIN A4, landscape with location and doc. field</description>
 <vertex x="1.4405" y="5.1054"/>
 </polygon>
 <text x="-6.0706" y="2.7432" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.81" y="-6.35" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <polygon width="0.0254" layer="31">
 <vertex x="-1.6526" y="1.6526"/>
 <vertex x="-1.6526" y="0.1"/>
