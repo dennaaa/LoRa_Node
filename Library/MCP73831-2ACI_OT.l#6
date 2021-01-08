@@ -120,19 +120,19 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP73831T-2ACI/OT">
+<deviceset name="MCP73831-2ACI/OT">
 <description>Charge Management Controller &lt;a href="https://pricing.snapeda.com/parts/MCP73831T-2ACI/OT/Microchip/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
-<gate name="A" symbol="MCP73831T-2ACI/OT" x="0" y="0"/>
+<gate name="G$1" symbol="MCP73831T-2ACI/OT" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOT95P280X145-5N">
 <connects>
-<connect gate="A" pin="PROG" pad="5"/>
-<connect gate="A" pin="STAT" pad="1"/>
-<connect gate="A" pin="VBAT" pad="3"/>
-<connect gate="A" pin="VDD" pad="4"/>
-<connect gate="A" pin="VSS" pad="2"/>
+<connect gate="G$1" pin="PROG" pad="5"/>
+<connect gate="G$1" pin="STAT" pad="1"/>
+<connect gate="G$1" pin="VBAT" pad="3"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <technologies>
 <technology name="">

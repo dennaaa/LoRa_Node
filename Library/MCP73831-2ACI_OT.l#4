@@ -120,7 +120,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MCP73831-2ACI/OT">
+<deviceset name="MCP73831-2ACI/OT" prefix="U">
 <description>Charge Management Controller &lt;a href="https://pricing.snapeda.com/parts/MCP73831T-2ACI/OT/Microchip/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MCP73831T-2ACI/OT" x="0" y="0"/>

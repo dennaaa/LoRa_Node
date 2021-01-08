@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -102,14 +102,26 @@
 <smd name="3" x="-1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="4" x="1.2954" y="-0.9398" dx="1.27" dy="0.5588" layer="1"/>
 <smd name="5" x="1.2954" y="0.9398" dx="1.27" dy="0.5588" layer="1"/>
+<wire x1="1.1" y1="1.8" x2="1.1" y2="1.5" width="0.05" layer="39"/>
+<wire x1="1.1" y1="1.5" x2="2.2" y2="1.5" width="0.05" layer="39"/>
+<wire x1="2.2" y1="1.5" x2="2.2" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="2.2" y1="-1.5" x2="1.1" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="1.1" y1="-1.5" x2="1.1" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="1.1" y1="-1.8" x2="-1.1" y2="-1.8" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="-1.8" x2="-1.1" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="-1.5" x2="-2.2" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="-1.5" x2="-2.2" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-2.2" y1="1.5" x2="-1.1" y2="1.5" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="1.5" x2="-1.1" y2="1.8" width="0.05" layer="39"/>
+<wire x1="-1.1" y1="1.8" x2="1.1" y2="1.8" width="0.05" layer="39"/>
 </package>
 </packages>
 <symbols>
 <symbol name="MCP73831T-2ACI/OT">
-<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.2032" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.2032" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="7.62" width="0.2032" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.2032" layer="94"/>
+<wire x1="-12.7" y1="7.62" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
 <text x="0" y="8.89" size="2.08681875" layer="95" ratio="10" rot="SR0" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-15.24" size="2.085940625" layer="96" ratio="10" rot="SR0" align="bottom-center">&gt;VALUE</text>
 <pin name="VDD" x="-17.78" y="2.54" length="middle" direction="pwr"/>
