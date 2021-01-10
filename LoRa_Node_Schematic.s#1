@@ -14330,15 +14330,15 @@ by exp-lbrs.ulp</description>
 </variantdefs>
 <classes>
 <class number="0" name="default" width="0.23" drill="0.2">
-<clearance class="0" value="0.254"/>
+<clearance class="0" value="0.2032"/>
 </class>
 <class number="1" name="Power" width="0.254" drill="0.2">
-<clearance class="0" value="0.254"/>
-<clearance class="1" value="0.254"/>
+<clearance class="0" value="0.2032"/>
+<clearance class="1" value="0.2032"/>
 </class>
 <class number="2" name="Diff" width="0.165" drill="0.2">
-<clearance class="0" value="0.254"/>
-<clearance class="1" value="0.254"/>
+<clearance class="0" value="0.2032"/>
+<clearance class="1" value="0.2032"/>
 <clearance class="2" value="0.18"/>
 </class>
 <class number="3" name="Antenna" width="0.21" drill="0.2">
@@ -15707,23 +15707,23 @@ Dennis Sohns</text>
 </net>
 <net name="SPI_SCK" class="0">
 <segment>
-<wire x1="81.28" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
-<label x="96.52" y="30.48" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="9"/>
+<wire x1="81.28" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
+<label x="96.52" y="48.26" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SPI_MOSI" class="0">
 <segment>
-<wire x1="81.28" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
-<label x="96.52" y="27.94" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="10"/>
+<wire x1="81.28" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
+<label x="96.52" y="45.72" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SPI_MISO" class="0">
 <segment>
-<wire x1="81.28" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
-<label x="96.52" y="25.4" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="11"/>
+<wire x1="81.28" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
+<label x="96.52" y="43.18" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
@@ -15742,51 +15742,51 @@ Dennis Sohns</text>
 </net>
 <net name="A0" class="0">
 <segment>
-<wire x1="96.52" y1="48.26" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<label x="96.52" y="48.26" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="A1" class="0">
-<segment>
-<wire x1="81.28" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="96.52" y="45.72" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="3"/>
-</segment>
-</net>
-<net name="A2" class="0">
-<segment>
-<wire x1="81.28" y1="43.18" x2="96.52" y2="43.18" width="0.1524" layer="91"/>
-<label x="96.52" y="43.18" size="1.778" layer="95" align="bottom-right"/>
-<pinref part="JP2" gate="G$1" pin="4"/>
-</segment>
-</net>
-<net name="A3" class="0">
-<segment>
-<wire x1="81.28" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 <label x="96.52" y="40.64" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="JP2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="A4" class="0">
+<net name="A1" class="0">
 <segment>
 <wire x1="81.28" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 <label x="96.52" y="38.1" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="JP2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="A5" class="0">
+<net name="A2" class="0">
 <segment>
 <wire x1="81.28" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="JP2" gate="G$1" pin="7"/>
 </segment>
 </net>
-<net name="AREF" class="0">
+<net name="A3" class="0">
 <segment>
 <wire x1="81.28" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="33.02" size="1.778" layer="95" align="bottom-right"/>
 <pinref part="JP2" gate="G$1" pin="8"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<wire x1="81.28" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
+<label x="96.52" y="30.48" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="9"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
+<wire x1="81.28" y1="27.94" x2="96.52" y2="27.94" width="0.1524" layer="91"/>
+<label x="96.52" y="27.94" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="10"/>
+</segment>
+</net>
+<net name="AREF" class="0">
+<segment>
+<wire x1="81.28" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
+<label x="96.52" y="25.4" size="1.778" layer="95" align="bottom-right"/>
+<pinref part="JP2" gate="G$1" pin="11"/>
 </segment>
 </net>
 </nets>

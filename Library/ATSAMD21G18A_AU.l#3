@@ -122,7 +122,6 @@
 <smd name="46" x="-1.75" y="4.1783" dx="0.2794" dy="1.3462" layer="1" rot="R180"/>
 <smd name="47" x="-2.25" y="4.1783" dx="0.2794" dy="1.3462" layer="1" rot="R180"/>
 <smd name="48" x="-2.75" y="4.1783" dx="0.2794" dy="1.3462" layer="1" rot="R180"/>
-<smd name="EPAD" x="0" y="0" dx="3.5052" dy="3.5052" layer="1" cream="no"/>
 <wire x1="-3.6322" y1="-3.6322" x2="-3.2258" y2="-3.6322" width="0.1524" layer="21"/>
 <wire x1="3.6322" y1="-3.6322" x2="3.6322" y2="-3.2258" width="0.1524" layer="21"/>
 <wire x1="3.6322" y1="3.6322" x2="3.2258" y2="3.6322" width="0.1524" layer="21"/>
@@ -156,31 +155,7 @@
 <vertex x="1.4405" y="5.1054"/>
 </polygon>
 <text x="-6.0706" y="2.7432" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
-<text x="-3.81" y="-6.35" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.6526" y="1.6526"/>
-<vertex x="-1.6526" y="0.1"/>
-<vertex x="-0.1" y="0.1"/>
-<vertex x="-0.1" y="1.6526"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="-1.6526" y="-0.1"/>
-<vertex x="-1.6526" y="-1.6526"/>
-<vertex x="-0.1" y="-1.6526"/>
-<vertex x="-0.1" y="-0.1"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="1.6526"/>
-<vertex x="0.1" y="0.1"/>
-<vertex x="1.6526" y="0.1"/>
-<vertex x="1.6526" y="1.6526"/>
-</polygon>
-<polygon width="0.0254" layer="31">
-<vertex x="0.1" y="-0.1"/>
-<vertex x="0.1" y="-1.6526"/>
-<vertex x="1.6526" y="-1.6526"/>
-<vertex x="1.6526" y="-0.1"/>
-</polygon>
+<text x="-3.81" y="-6.35" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="2.6162" y1="3.5052" x2="2.8956" y2="3.5052" width="0.1524" layer="51"/>
 <wire x1="2.8956" y1="3.5052" x2="2.8956" y2="4.4958" width="0.1524" layer="51"/>
 <wire x1="2.8956" y1="4.4958" x2="2.6162" y2="4.4958" width="0.1524" layer="51"/>
@@ -1055,15 +1030,15 @@
 <text x="0" y="-45.72" size="2.0828" layer="96" ratio="6" rot="SR0" align="bottom-center">&gt;Value</text>
 </symbol>
 <symbol name="ATSAMD21G18A-AU_A">
-<pin name="VDDANA" x="-17.78" y="12.7" length="middle" direction="pwr"/>
-<pin name="VDDCORE" x="-17.78" y="10.16" length="middle" direction="pwr"/>
-<pin name="VDDIN" x="-17.78" y="5.08" length="middle" direction="pwr"/>
-<pin name="VDDIO_2" x="-17.78" y="2.54" length="middle" direction="pwr"/>
-<pin name="VDDIO" x="-17.78" y="0" length="middle" direction="pwr"/>
-<pin name="GND_2" x="-17.78" y="-5.08" length="middle" direction="pas"/>
-<pin name="GND_3" x="-17.78" y="-7.62" length="middle" direction="pas"/>
-<pin name="GND" x="-17.78" y="-10.16" length="middle" direction="pas"/>
-<pin name="GNDANA" x="-17.78" y="-12.7" length="middle" direction="pas"/>
+<pin name="VDDANA" x="17.78" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDDCORE" x="-17.78" y="5.08" length="middle" direction="pwr"/>
+<pin name="VDDIN" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="VDDIO_2" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="VDDIO" x="-17.78" y="10.16" length="middle" direction="pwr"/>
+<pin name="GND_2" x="-17.78" y="-10.16" length="middle" direction="pas"/>
+<pin name="GND_3" x="-17.78" y="-12.7" length="middle" direction="pas"/>
+<pin name="GND" x="-17.78" y="-7.62" length="middle" direction="pas"/>
+<pin name="GNDANA" x="17.78" y="-12.7" length="middle" direction="pas" rot="R180"/>
 <wire x1="-12.7" y1="17.78" x2="-12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="-12.7" y1="-17.78" x2="12.7" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="12.7" y1="-17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
@@ -1083,7 +1058,6 @@
 <device name="" package="TQFP48_7X7MC_MCH">
 <connects>
 <connect gate="A" pin="!RESET" pad="40"/>
-<connect gate="A" pin="EPAD" pad="EPAD"/>
 <connect gate="A" pin="PA00/XIN32" pad="1"/>
 <connect gate="A" pin="PA01/XOUT32" pad="2"/>
 <connect gate="A" pin="PA02/A0" pad="3"/>
@@ -1145,7 +1119,6 @@
 <device name="TQFP48_7X7MC_MCH-M" package="TQFP48_7X7MC_MCH-M">
 <connects>
 <connect gate="A" pin="!RESET" pad="40"/>
-<connect gate="A" pin="EPAD" pad="EPAD"/>
 <connect gate="A" pin="PA00/XIN32" pad="1"/>
 <connect gate="A" pin="PA01/XOUT32" pad="2"/>
 <connect gate="A" pin="PA02/A0" pad="3"/>
@@ -1207,7 +1180,6 @@
 <device name="TQFP48_7X7MC_MCH-L" package="TQFP48_7X7MC_MCH-L">
 <connects>
 <connect gate="A" pin="!RESET" pad="40"/>
-<connect gate="A" pin="EPAD" pad="EPAD"/>
 <connect gate="A" pin="PA00/XIN32" pad="1"/>
 <connect gate="A" pin="PA01/XOUT32" pad="2"/>
 <connect gate="A" pin="PA02/A0" pad="3"/>
