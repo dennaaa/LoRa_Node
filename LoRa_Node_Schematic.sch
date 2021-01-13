@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -1474,7 +1474,7 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="PROG" x="17.78" y="-2.54" length="middle" direction="in" rot="R180"/>
 <pin name="VSS" x="17.78" y="-7.62" length="middle" direction="pwr" rot="R180"/>
 <pin name="STAT" x="-17.78" y="-7.62" length="middle" direction="out"/>
-<pin name="VBAT" x="17.78" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="VBAT" x="17.78" y="2.54" length="middle" direction="pwr" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -14328,7 +14328,6 @@ by exp-lbrs.ulp</description>
 <part name="D2" library="MBR120VLSFT1G" deviceset="MBR120VLSFT1G" device=""/>
 <part name="C16" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4u7"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="10k"/>
-<part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="4u7"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -14394,6 +14393,7 @@ by exp-lbrs.ulp</description>
 <part name="H2" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
 <part name="H3" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
 <part name="H4" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -15109,9 +15109,6 @@ Dennis Sohns</text>
 <attribute name="NAME" x="99.06" y="85.09" size="1.778" layer="95" align="bottom-center"/>
 <attribute name="VALUE" x="99.06" y="80.772" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND15" gate="1" x="106.68" y="73.66" smashed="yes">
-<attribute name="VALUE" x="104.14" y="71.12" size="1.778" layer="96"/>
-</instance>
 <instance part="GND16" gate="1" x="114.3" y="73.66" smashed="yes">
 <attribute name="VALUE" x="111.76" y="71.12" size="1.778" layer="96"/>
 </instance>
@@ -15215,6 +15212,9 @@ Dennis Sohns</text>
 <instance part="H4" gate="G$1" x="132.08" y="25.4" smashed="yes">
 <attribute name="NAME" x="134.112" y="25.9842" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.112" y="22.9362" size="1.778" layer="96"/>
+</instance>
+<instance part="GND1" gate="1" x="106.68" y="73.66" smashed="yes">
+<attribute name="VALUE" x="104.14" y="71.12" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -15349,16 +15349,6 @@ Dennis Sohns</text>
 <pinref part="C15" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="U4" gate="G$1" pin="VSS"/>
-<wire x1="106.68" y1="83.82" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="78.74" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
-<junction x="106.68" y="78.74"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="114.3" y1="78.74" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
@@ -15419,6 +15409,16 @@ Dennis Sohns</text>
 <pinref part="C10" gate="G$1" pin="2"/>
 <wire x1="177.8" y1="129.54" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND27" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="104.14" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="83.82" x2="106.68" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="VSS"/>
+<wire x1="106.68" y1="78.74" x2="91.44" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="106.68" y1="78.74" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<junction x="106.68" y="78.74"/>
 </segment>
 </net>
 <net name="USB_SHIELD" class="0">
@@ -15715,15 +15715,9 @@ Dennis Sohns</text>
 <approved hash="104,2,53.34,142.24,J1,SHIELD,USB_SHIELD,,,"/>
 <approved hash="104,1,218.44,55.88,U5,VDD,+3V3,,,"/>
 <approved hash="104,1,210.82,152.4,U2,3.3V,+3V3,,,"/>
-<approved hash="208,2,157.48,106.68,VBAT,sup,,,,"/>
-<approved hash="208,2,121.92,96.52,VBAT,sup,,,,"/>
-<approved hash="208,2,91.44,88.9,VBAT,out,,,,"/>
-<approved hash="208,2,185.42,53.34,VBAT,sup,,,,"/>
 <approved hash="113,1,130.071,89.431,FRAME1,,,,,"/>
 <approved hash="113,2,130.071,89.431,FRAME2,,,,,"/>
 <approved hash="113,2,36.83,79.0617,LED1,,,,,"/>
-<approved hash="113,2,66.2771,38.2956,JP1,,,,,"/>
-<approved hash="113,2,81.0429,38.2956,JP2,,,,,"/>
 </errors>
 </schematic>
 </drawing>

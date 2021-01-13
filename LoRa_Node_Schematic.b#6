@@ -3,14 +3,14 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
@@ -160,6 +160,12 @@
 <wire x1="51" y1="0" x2="51" y2="23" width="0" layer="20" locked="yes"/>
 <wire x1="51" y1="23" x2="0" y2="23" width="0" layer="20" locked="yes"/>
 <wire x1="0" y1="23" x2="0" y2="0" width="0" layer="20" locked="yes"/>
+<polygon width="0" layer="41" spacing="0.6096" pour="hatch">
+<vertex x="41" y="18.5"/>
+<vertex x="41" y="4.5"/>
+<vertex x="51" y="4.5"/>
+<vertex x="51" y="18.5"/>
+</polygon>
 </plain>
 <libraries>
 <library name="0868AT43A0020E">
@@ -3805,6 +3811,14 @@ Your Multi-CB Team
 <wire x1="3.1" y1="17.3" x2="1.3" y2="17.3" width="0.23" layer="16"/>
 <via x="1.3" y="17.3" extent="1-16" drill="0.2"/>
 <wire x1="1.3" y1="17.3" x2="2.55" y2="17.3" width="0.23" layer="1"/>
+</signal>
+<signal name="N$1">
+<polygon width="0.254" layer="1" spacing="0.6096" pour="hatch" isolate="0.2032">
+<vertex x="0" y="23"/>
+<vertex x="0" y="0"/>
+<vertex x="51" y="0"/>
+<vertex x="51" y="23"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>
