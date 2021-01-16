@@ -1347,10 +1347,9 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.11" y1="-1.5" x2="2.11" y2="1.5" width="0.05" layer="39"/>
 <wire x1="2.11" y1="1.5" x2="1.1" y2="1.5" width="0.05" layer="39"/>
 <wire x1="1.1" y1="1.5" x2="1.1" y2="1.8" width="0.05" layer="39"/>
-<circle x="-2.469" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.95" y="1.65" radius="0.1" width="0.2" layer="21"/>
 <text x="-1.88393125" y="2.02061875" size="1.019340625" layer="25">&gt;NAME</text>
 <text x="-2.181440625" y="-2.9625" size="1.0179" layer="27">&gt;VALUE</text>
-<circle x="-0.469" y="0.95" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="2" x="-1.185" y="0" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="3" x="-1.185" y="-0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
@@ -1405,10 +1404,7 @@ DIN A4, landscape with location and doc. field</description>
 <library name="MCP73831-2ACI_OT">
 <packages>
 <package name="SOT95P280X145-5N">
-<wire x1="0.6096" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21" curve="-180"/>
+<wire x1="0.6096" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="-1.5494" x2="0.8636" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-1.5494" x2="0.8636" y2="-1.1938" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-1.1938" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
@@ -1511,287 +1507,6 @@ DIN A4, landscape with location and doc. field</description>
 <library name="ZX62D-B-5PA8">
 <packages>
 <package name="HIROSE_ZX62D-B-5PA8">
-<wire x1="-2.75" y1="2.9" x2="-2.75" y2="3.1" width="0.001" layer="46"/>
-<wire x1="-2.75" y1="3.1" x2="-2.425" y2="3.425" width="0.001" layer="46" curve="-90"/>
-<wire x1="-2.425" y1="3.425" x2="-2.1" y2="3.1" width="0.001" layer="46" curve="-90"/>
-<wire x1="-2.1" y1="3.1" x2="-2.1" y2="2.9" width="0.001" layer="46"/>
-<wire x1="-2.1" y1="2.9" x2="-2.425" y2="2.575" width="0.001" layer="46" curve="-90"/>
-<wire x1="-2.425" y1="2.575" x2="-2.75" y2="2.9" width="0.001" layer="46" curve="-90"/>
-<polygon width="0.001" layer="32">
-<vertex x="-2.75" y="3"/>
-<vertex x="-2.75" y="3.1" curve="-90"/>
-<vertex x="-2.425" y="3.425" curve="-90"/>
-<vertex x="-2.1" y="3.1"/>
-<vertex x="-2.1" y="3"/>
-<vertex x="-1.9" y="3"/>
-<vertex x="-1.9" y="3.1" curve="90"/>
-<vertex x="-2.425" y="3.625" curve="90"/>
-<vertex x="-2.95" y="3.1"/>
-<vertex x="-2.95" y="3"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="-2.1" y="3"/>
-<vertex x="-2.1" y="2.9" curve="-90"/>
-<vertex x="-2.425" y="2.575" curve="-90"/>
-<vertex x="-2.75" y="2.9"/>
-<vertex x="-2.75" y="3"/>
-<vertex x="-2.95" y="3"/>
-<vertex x="-2.95" y="2.9" curve="90"/>
-<vertex x="-2.425" y="2.375" curve="90"/>
-<vertex x="-1.9" y="2.9"/>
-<vertex x="-1.9" y="3"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-2.75" y="3"/>
-<vertex x="-2.75" y="3.1" curve="-90"/>
-<vertex x="-2.425" y="3.425" curve="-90"/>
-<vertex x="-2.1" y="3.1"/>
-<vertex x="-2.1" y="3"/>
-<vertex x="-1.9" y="3"/>
-<vertex x="-1.9" y="3.1" curve="90"/>
-<vertex x="-2.425" y="3.625" curve="90"/>
-<vertex x="-2.95" y="3.1"/>
-<vertex x="-2.95" y="3"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-2.1" y="3"/>
-<vertex x="-2.1" y="2.9" curve="-90"/>
-<vertex x="-2.425" y="2.575" curve="-90"/>
-<vertex x="-2.75" y="2.9"/>
-<vertex x="-2.75" y="3"/>
-<vertex x="-2.95" y="3"/>
-<vertex x="-2.95" y="2.9" curve="90"/>
-<vertex x="-2.425" y="2.375" curve="90"/>
-<vertex x="-1.9" y="2.9"/>
-<vertex x="-1.9" y="3"/>
-</polygon>
-<rectangle x1="-3.129359375" y1="2.20306875" x2="-1.75" y2="3.8" layer="29"/>
-<rectangle x1="-3.131" y1="2.20421875" x2="-1.75" y2="3.8" layer="30" rot="R180"/>
-<wire x1="2.1" y1="2.9" x2="2.1" y2="3.1" width="0.001" layer="46"/>
-<wire x1="2.1" y1="3.1" x2="2.425" y2="3.425" width="0.001" layer="46" curve="-90"/>
-<wire x1="2.425" y1="3.425" x2="2.75" y2="3.1" width="0.001" layer="46" curve="-90"/>
-<wire x1="2.75" y1="3.1" x2="2.75" y2="2.9" width="0.001" layer="46"/>
-<wire x1="2.75" y1="2.9" x2="2.425" y2="2.575" width="0.001" layer="46" curve="-90"/>
-<wire x1="2.425" y1="2.575" x2="2.1" y2="2.9" width="0.001" layer="46" curve="-90"/>
-<polygon width="0.001" layer="32">
-<vertex x="2.1" y="3"/>
-<vertex x="2.1" y="3.1" curve="-90"/>
-<vertex x="2.425" y="3.425" curve="-90"/>
-<vertex x="2.75" y="3.1"/>
-<vertex x="2.75" y="3"/>
-<vertex x="2.95" y="3"/>
-<vertex x="2.95" y="3.1" curve="90"/>
-<vertex x="2.425" y="3.625" curve="90"/>
-<vertex x="1.9" y="3.1"/>
-<vertex x="1.9" y="3"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="2.75" y="3"/>
-<vertex x="2.75" y="2.9" curve="-90"/>
-<vertex x="2.425" y="2.575" curve="-90"/>
-<vertex x="2.1" y="2.9"/>
-<vertex x="2.1" y="3"/>
-<vertex x="1.9" y="3"/>
-<vertex x="1.9" y="2.9" curve="90"/>
-<vertex x="2.425" y="2.375" curve="90"/>
-<vertex x="2.95" y="2.9"/>
-<vertex x="2.95" y="3"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="2.1" y="3"/>
-<vertex x="2.1" y="3.1" curve="-90"/>
-<vertex x="2.425" y="3.425" curve="-90"/>
-<vertex x="2.75" y="3.1"/>
-<vertex x="2.75" y="3"/>
-<vertex x="2.95" y="3"/>
-<vertex x="2.95" y="3.1" curve="90"/>
-<vertex x="2.425" y="3.625" curve="90"/>
-<vertex x="1.9" y="3.1"/>
-<vertex x="1.9" y="3"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="2.75" y="3"/>
-<vertex x="2.75" y="2.9" curve="-90"/>
-<vertex x="2.425" y="2.575" curve="-90"/>
-<vertex x="2.1" y="2.9"/>
-<vertex x="2.1" y="3"/>
-<vertex x="1.9" y="3"/>
-<vertex x="1.9" y="2.9" curve="90"/>
-<vertex x="2.425" y="2.375" curve="90"/>
-<vertex x="2.95" y="2.9"/>
-<vertex x="2.95" y="3"/>
-</polygon>
-<rectangle x1="1.72845" y1="2.2044" x2="3.1" y2="3.8" layer="29"/>
-<rectangle x1="1.728309375" y1="2.20421875" x2="3.1" y2="3.8" layer="30" rot="R180"/>
-<wire x1="-3.4" y1="-0.75" x2="-3.625" y2="-0.75" width="0.001" layer="46"/>
-<wire x1="-3.625" y1="-0.75" x2="-3.925" y2="-0.45" width="0.001" layer="46" curve="-90"/>
-<wire x1="-3.925" y1="-0.45" x2="-3.925" y2="0.45" width="0.001" layer="46"/>
-<wire x1="-3.925" y1="0.45" x2="-3.625" y2="0.75" width="0.001" layer="46" curve="-90"/>
-<wire x1="-3.625" y1="0.75" x2="-3.4" y2="0.75" width="0.001" layer="46"/>
-<wire x1="-3.4" y1="0.75" x2="-3.1" y2="0.45" width="0.001" layer="46" curve="-90"/>
-<wire x1="-3.1" y1="0.45" x2="-3.1" y2="-0.45" width="0.001" layer="46"/>
-<wire x1="-3.1" y1="-0.45" x2="-3.4" y2="-0.75" width="0.001" layer="46" curve="-90"/>
-<polygon width="0.001" layer="32">
-<vertex x="-3.925" y="0"/>
-<vertex x="-3.925" y="0.45" curve="-90"/>
-<vertex x="-3.625" y="0.75"/>
-<vertex x="-3.4" y="0.75" curve="-90"/>
-<vertex x="-3.1" y="0.45"/>
-<vertex x="-3.1" y="0"/>
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.6" y="0.95"/>
-<vertex x="-4.2" y="0.95" curve="90"/>
-<vertex x="-4.7" y="0.45"/>
-<vertex x="-4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="-3.925" y="0"/>
-<vertex x="-3.925" y="-0.45" curve="90"/>
-<vertex x="-3.625" y="-0.75"/>
-<vertex x="-3.4" y="-0.75" curve="90"/>
-<vertex x="-3.1" y="-0.45"/>
-<vertex x="-3.1" y="0"/>
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.6" y="-0.95"/>
-<vertex x="-4.2" y="-0.95" curve="-90"/>
-<vertex x="-4.7" y="-0.45"/>
-<vertex x="-4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-3.925" y="0"/>
-<vertex x="-3.925" y="0.45" curve="-90"/>
-<vertex x="-3.625" y="0.75"/>
-<vertex x="-3.4" y="0.75" curve="-90"/>
-<vertex x="-3.1" y="0.45"/>
-<vertex x="-3.1" y="0"/>
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.6" y="0.95"/>
-<vertex x="-4.2" y="0.95" curve="90"/>
-<vertex x="-4.7" y="0.45"/>
-<vertex x="-4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="-3.925" y="0"/>
-<vertex x="-3.925" y="-0.45" curve="90"/>
-<vertex x="-3.625" y="-0.75"/>
-<vertex x="-3.4" y="-0.75" curve="90"/>
-<vertex x="-3.1" y="-0.45"/>
-<vertex x="-3.1" y="0"/>
-<vertex x="-2.6" y="0"/>
-<vertex x="-2.6" y="-0.95"/>
-<vertex x="-4.2" y="-0.95" curve="-90"/>
-<vertex x="-4.7" y="-0.45"/>
-<vertex x="-4.7" y="0"/>
-</polygon>
-<rectangle x1="-4.9558" y1="-1.251459375" x2="-2.35" y2="1.25" layer="29"/>
-<rectangle x1="-4.95735" y1="-1.251859375" x2="-2.35" y2="1.25" layer="30"/>
-<polygon width="0.001" layer="31">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="0.45" curve="90"/>
-<vertex x="3.625" y="0.75"/>
-<vertex x="3.4" y="0.75" curve="90"/>
-<vertex x="3.1" y="0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="0.95"/>
-<vertex x="4.2" y="0.95" curve="-90"/>
-<vertex x="4.7" y="0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="-0.45" curve="-90"/>
-<vertex x="3.625" y="-0.75"/>
-<vertex x="3.4" y="-0.75" curve="-90"/>
-<vertex x="3.1" y="-0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="-0.95"/>
-<vertex x="4.2" y="-0.95" curve="90"/>
-<vertex x="4.7" y="-0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="0.45" curve="90"/>
-<vertex x="3.625" y="0.75"/>
-<vertex x="3.4" y="0.75" curve="90"/>
-<vertex x="3.1" y="0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="0.95"/>
-<vertex x="4.2" y="0.95" curve="-90"/>
-<vertex x="4.7" y="0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="31">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="-0.45" curve="-90"/>
-<vertex x="3.625" y="-0.75"/>
-<vertex x="3.4" y="-0.75" curve="-90"/>
-<vertex x="3.1" y="-0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="-0.95"/>
-<vertex x="4.2" y="-0.95" curve="90"/>
-<vertex x="4.7" y="-0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="0.45" curve="90"/>
-<vertex x="3.625" y="0.75"/>
-<vertex x="3.4" y="0.75" curve="90"/>
-<vertex x="3.1" y="0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="0.95"/>
-<vertex x="4.2" y="0.95" curve="-90"/>
-<vertex x="4.7" y="0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="-0.45" curve="-90"/>
-<vertex x="3.625" y="-0.75"/>
-<vertex x="3.4" y="-0.75" curve="-90"/>
-<vertex x="3.1" y="-0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="-0.95"/>
-<vertex x="4.2" y="-0.95" curve="90"/>
-<vertex x="4.7" y="-0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="0.45" curve="90"/>
-<vertex x="3.625" y="0.75"/>
-<vertex x="3.4" y="0.75" curve="90"/>
-<vertex x="3.1" y="0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="0.95"/>
-<vertex x="4.2" y="0.95" curve="-90"/>
-<vertex x="4.7" y="0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<polygon width="0.001" layer="32">
-<vertex x="3.925" y="0"/>
-<vertex x="3.925" y="-0.45" curve="-90"/>
-<vertex x="3.625" y="-0.75"/>
-<vertex x="3.4" y="-0.75" curve="-90"/>
-<vertex x="3.1" y="-0.45"/>
-<vertex x="3.1" y="0"/>
-<vertex x="2.6" y="0"/>
-<vertex x="2.6" y="-0.95"/>
-<vertex x="4.2" y="-0.95" curve="90"/>
-<vertex x="4.7" y="-0.45"/>
-<vertex x="4.7" y="0"/>
-</polygon>
-<rectangle x1="2.35373125" y1="-1.251990625" x2="4.9" y2="1.25" layer="29"/>
-<rectangle x1="2.351609375" y1="-1.250859375" x2="4.9" y2="1.25" layer="30"/>
-<wire x1="-3.75" y1="-2.15" x2="-3.75" y2="2.9" width="0.127" layer="51"/>
 <wire x1="-3.75" y1="2.9" x2="3.75" y2="2.9" width="0.127" layer="51"/>
 <wire x1="3.75" y1="-2.15" x2="2.5" y2="-2.15" width="0.127" layer="51"/>
 <wire x1="2.5" y1="-2.15" x2="2.5" y2="-2.75" width="0.127" layer="51"/>
@@ -1810,7 +1525,6 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.75" y1="-2.4" x2="4" y2="-2.4" width="0.05" layer="39"/>
 <wire x1="4" y1="-2.4" x2="4" y2="-1.2" width="0.05" layer="39"/>
 <wire x1="4" y1="-1.2" x2="4.95" y2="-1.2" width="0.05" layer="39"/>
-<wire x1="4.95" y1="-1.2" x2="4.95" y2="1.2" width="0.05" layer="39"/>
 <wire x1="4.95" y1="1.2" x2="4" y2="1.2" width="0.05" layer="39"/>
 <wire x1="4" y1="1.2" x2="4" y2="3.15" width="0.05" layer="39"/>
 <wire x1="4" y1="3.15" x2="3.2" y2="3.15" width="0.05" layer="39"/>
@@ -1826,14 +1540,6 @@ DIN A4, landscape with location and doc. field</description>
 <circle x="-1.3" y="3.646" radius="0.1" width="0.2" layer="21"/>
 <text x="-3.15103125" y="4.151359375" size="0.813065625" layer="25">&gt;NAME</text>
 <text x="-3.151340625" y="-4.0017" size="0.813146875" layer="27">&gt;VALUE</text>
-<wire x1="3.4" y1="0.75" x2="3.625" y2="0.75" width="0.001" layer="46"/>
-<wire x1="3.625" y1="0.75" x2="3.925" y2="0.45" width="0.001" layer="46" curve="-90"/>
-<wire x1="3.925" y1="0.45" x2="3.925" y2="-0.45" width="0.001" layer="46"/>
-<wire x1="3.925" y1="-0.45" x2="3.625" y2="-0.75" width="0.001" layer="46" curve="-90"/>
-<wire x1="3.625" y1="-0.75" x2="3.4" y2="-0.75" width="0.001" layer="46"/>
-<wire x1="3.4" y1="-0.75" x2="3.1" y2="-0.45" width="0.001" layer="46" curve="-90"/>
-<wire x1="3.1" y1="-0.45" x2="3.1" y2="0.45" width="0.001" layer="46"/>
-<wire x1="3.1" y1="0.45" x2="3.4" y2="0.75" width="0.001" layer="46" curve="-90"/>
 <smd name="1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
@@ -1841,11 +1547,16 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="5" x="1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="S5" x="-1.15" y="0" dx="1.8" dy="1.9" layer="1"/>
 <smd name="S6" x="1.15" y="0" dx="1.8" dy="1.9" layer="1"/>
-<wire x1="3.75" y1="2.9" x2="3.75" y2="-2.15" width="0.127" layer="21"/>
 <pad name="S1" x="-3.5125" y="0" drill="1.5" shape="square"/>
 <pad name="S2" x="3.5125" y="0" drill="1.5" shape="square"/>
 <pad name="S3" x="-2.425" y="3" drill="0.85"/>
 <pad name="S4" x="2.425" y="3" drill="0.85"/>
+<wire x1="3.75" y1="1.6" x2="3.75" y2="2.9" width="0.127" layer="21"/>
+<wire x1="3.75" y1="1.62433125" x2="3.750309375" y2="1.62433125" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-2.15" x2="-3.75" y2="1.61798125" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="1.61798125" x2="-3.749040625" y2="1.61798125" width="0.127" layer="51"/>
+<wire x1="3.75" y1="-2.15" x2="3.75" y2="1.609090625" width="0.127" layer="51"/>
+<wire x1="3.75" y1="1.609090625" x2="3.75158125" y2="1.609090625" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -1903,11 +1614,10 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="2" x="-0.7493" y="-0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <smd name="3" x="0.7493" y="-0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <smd name="4" x="0.7493" y="0.4" dx="0.7112" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
-<wire x1="-1.8542" y1="0.4064" x2="-2.0574" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.0574" y1="0.4064" x2="-1.8542" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.2192" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.2192" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-0.8128" y1="-0.8128" x2="0.8128" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.8128" y1="-0.8128" x2="0.8128" y2="0.8128" width="0.1524" layer="51"/>
@@ -1924,7 +1634,6 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="2" x="-0.8001" y="-0.4" dx="0.8128" dy="0.3048" layer="1"/>
 <smd name="3" x="0.8001" y="-0.4" dx="0.8128" dy="0.3048" layer="1"/>
 <smd name="4" x="0.8001" y="0.4" dx="0.8128" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
 <wire x1="-1.9558" y1="0.4064" x2="-2.159" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
@@ -1945,7 +1654,6 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="2" x="-0.6985" y="-0.4" dx="0.6096" dy="0.3048" layer="1"/>
 <smd name="3" x="0.6985" y="-0.4" dx="0.6096" dy="0.3048" layer="1"/>
 <smd name="4" x="0.6985" y="0.4" dx="0.6096" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
 <wire x1="-1.7526" y1="0.4064" x2="-1.9558" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
@@ -1968,7 +1676,6 @@ DIN A4, landscape with location and doc. field</description>
 <pin name="SCL" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="VDD" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="VSS" x="15.24" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NC" x="-15.24" y="-5.08" length="middle" direction="nc"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -1985,7 +1692,6 @@ DIN A4, landscape with location and doc. field</description>
 <devices>
 <device name="" package="SHT4X_SEN">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
@@ -2004,7 +1710,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 <device name="SHT4X_SEN-M" package="SHT4X_SEN-M">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
@@ -2023,7 +1728,6 @@ DIN A4, landscape with location and doc. field</description>
 </device>
 <device name="SHT4X_SEN-L" package="SHT4X_SEN-L">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
@@ -13797,10 +13501,10 @@ Source: www.kingbright.com</description>
 <library name="0868AT43A0020E">
 <packages>
 <package name="XCVR_0868AT43A0020E">
-<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="21"/>
-<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="21"/>
-<circle x="-4.75" y="0" radius="0.25" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="51"/>
+<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="51"/>
+<circle x="-4.5" y="1.5" radius="0.25" width="0.2" layer="21"/>
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.05" layer="39"/>
 <wire x1="5" y1="5" x2="5" y2="-9" width="0.05" layer="39"/>
 <wire x1="5" y1="-9" x2="-5" y2="-9" width="0.05" layer="39"/>
@@ -14391,8 +14095,6 @@ by exp-lbrs.ulp</description>
 <part name="J3" library="B2B-PH-K-S_LF_SN" deviceset="B2B-PH-K-S(LF)(SN)" device=""/>
 <part name="H1" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
 <part name="H2" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
-<part name="H3" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
-<part name="H4" library="Adafruit Feather M0 RFMxx" deviceset="MOUNT-HOLE2.5" device=""/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -14411,7 +14113,6 @@ Dennis Sohns</text>
 <text x="53.34" y="104.14" size="1.778" layer="97">N/C</text>
 <text x="53.34" y="101.6" size="1.778" layer="97">N/C</text>
 <text x="53.34" y="99.06" size="1.778" layer="97">N/C</text>
-<text x="182.88" y="45.72" size="1.778" layer="97">N/C</text>
 <text x="213.36" y="144.78" size="1.778" layer="97">N/C</text>
 <text x="213.36" y="142.24" size="1.778" layer="97">N/C</text>
 <text x="213.36" y="139.7" size="1.778" layer="97">N/C</text>
@@ -15204,14 +14905,6 @@ Dennis Sohns</text>
 <instance part="H2" gate="G$1" x="132.08" y="40.64" smashed="yes">
 <attribute name="NAME" x="134.112" y="41.2242" size="1.778" layer="95"/>
 <attribute name="VALUE" x="134.112" y="38.1762" size="1.778" layer="96"/>
-</instance>
-<instance part="H3" gate="G$1" x="132.08" y="33.02" smashed="yes">
-<attribute name="NAME" x="134.112" y="33.6042" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.112" y="30.5562" size="1.778" layer="96"/>
-</instance>
-<instance part="H4" gate="G$1" x="132.08" y="25.4" smashed="yes">
-<attribute name="NAME" x="134.112" y="25.9842" size="1.778" layer="95"/>
-<attribute name="VALUE" x="134.112" y="22.9362" size="1.778" layer="96"/>
 </instance>
 <instance part="GND1" gate="1" x="106.68" y="73.66" smashed="yes">
 <attribute name="VALUE" x="104.14" y="71.12" size="1.778" layer="96"/>

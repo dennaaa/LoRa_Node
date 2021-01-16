@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -21,11 +21,11 @@
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -37,13 +37,13 @@
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -573,11 +573,6 @@
 <wire x1="-4.95" y1="1.2" x2="-4.95" y2="-1.2" width="0.05" layer="39"/>
 <wire x1="-4.95" y1="-1.2" x2="-4" y2="-1.2" width="0.05" layer="39"/>
 <wire x1="-4" y1="-1.2" x2="-4" y2="-2.4" width="0.05" layer="39"/>
-<rectangle x1="-3.75535" y1="0.95135625" x2="3.75" y2="2" layer="41"/>
-<rectangle x1="-3.753640625" y1="-1.451409375" x2="3.75" y2="-0.95" layer="41"/>
-<rectangle x1="-2.602309375" y1="-0.95084375" x2="-2.05" y2="0.95" layer="41"/>
-<rectangle x1="-0.250203125" y1="-0.950765625" x2="0.25" y2="0.95" layer="41"/>
-<rectangle x1="2.052240625" y1="-0.9510375" x2="2.6" y2="0.95" layer="41"/>
 <rectangle x1="-3.752640625" y1="0.95066875" x2="3.75" y2="2" layer="42"/>
 <rectangle x1="-2.60061875" y1="-0.950225" x2="-2.05" y2="0.95" layer="42"/>
 <rectangle x1="-0.250334375" y1="-0.9512625" x2="0.25" y2="0.95" layer="42"/>
@@ -609,22 +604,25 @@
 <hole x="3.5125" y="0" drill="0.825"/>
 <smd name="S5" x="-1.15" y="0" dx="1.8" dy="1.9" layer="1"/>
 <smd name="S6" x="1.15" y="0" dx="1.8" dy="1.9" layer="1"/>
+<smd name="P$1" x="2.794" y="0" dx="0.3048" dy="0.1524" layer="1"/>
+<smd name="P$2" x="-2.794" y="0" dx="0.3048" dy="0.1524" layer="1"/>
 </package>
 </packages>
 <symbols>
 <symbol name="ZX62D-B-5PA8">
-<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 <text x="0" y="11.43" size="1.77961875" layer="95" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-12.7" size="1.778109375" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="VBUS" x="10.16" y="7.62" length="middle" direction="pas" rot="R180"/>
-<pin name="D-" x="10.16" y="5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="D+" x="10.16" y="2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="ID" x="10.16" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="GND" x="10.16" y="-2.54" length="middle" direction="pas" rot="R180"/>
-<pin name="SHIELD" x="10.16" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<pin name="VBUS" x="12.7" y="7.62" length="middle" direction="pas" rot="R180"/>
+<pin name="D-" x="12.7" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="D+" x="12.7" y="2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="ID" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="12.7" y="-2.54" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="12.7" y="-7.62" length="middle" direction="pwr" rot="R180"/>
+<text x="-5.08" y="0" size="1.778" layer="94" rot="R90" align="bottom-center">USB Micro-B</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -640,7 +638,7 @@
 <connect gate="G$1" pin="D-" pad="2"/>
 <connect gate="G$1" pin="GND" pad="5"/>
 <connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4 S5 S6"/>
+<connect gate="G$1" pin="SHIELD" pad="P$1 P$2 S1 S2 S3 S4 S5 S6"/>
 <connect gate="G$1" pin="VBUS" pad="1"/>
 </connects>
 <technologies>

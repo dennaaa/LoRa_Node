@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -59,10 +59,10 @@
 <library>
 <packages>
 <package name="XCVR_0868AT43A0020E">
-<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="21"/>
-<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="21"/>
-<circle x="-4.75" y="0" radius="0.25" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="51"/>
+<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="51"/>
+<circle x="-4.5" y="1.5" radius="0.25" width="0.2" layer="21"/>
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.05" layer="39"/>
 <wire x1="5" y1="5" x2="5" y2="-9" width="0.05" layer="39"/>
 <wire x1="5" y1="-9" x2="-5" y2="-9" width="0.05" layer="39"/>

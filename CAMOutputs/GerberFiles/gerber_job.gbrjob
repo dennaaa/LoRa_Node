@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2021-01-16T17:11:04Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.62,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "LoRa_Node_Schematic"
+        },
+        "Owner": "Dennis Sohns <sohnsde78611@th-nuernberg.de>",
+        "Size": {
+            "X": 51,
+            "Y": 23
+        }
+    }
+}

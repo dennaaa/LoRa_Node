@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -78,11 +78,10 @@
 <smd name="2" x="-0.7493" y="-0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <smd name="3" x="0.7493" y="-0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <smd name="4" x="0.7493" y="0.4" dx="0.7112" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
-<wire x1="-1.8542" y1="0.4064" x2="-2.0574" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.0574" y1="0.4064" x2="-1.8542" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.2192" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.2192" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-0.8128" y1="-0.8128" x2="0.8128" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.8128" y1="-0.8128" x2="0.8128" y2="0.8128" width="0.1524" layer="51"/>
@@ -99,7 +98,6 @@
 <smd name="2" x="-0.8001" y="-0.4" dx="0.8128" dy="0.3048" layer="1"/>
 <smd name="3" x="0.8001" y="-0.4" dx="0.8128" dy="0.3048" layer="1"/>
 <smd name="4" x="0.8001" y="0.4" dx="0.8128" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
 <wire x1="-1.9558" y1="0.4064" x2="-2.159" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
@@ -120,7 +118,6 @@
 <smd name="2" x="-0.6985" y="-0.4" dx="0.6096" dy="0.3048" layer="1"/>
 <smd name="3" x="0.6985" y="-0.4" dx="0.6096" dy="0.3048" layer="1"/>
 <smd name="4" x="0.6985" y="0.4" dx="0.6096" dy="0.3048" layer="1"/>
-<smd name="5" x="0" y="0" dx="0.508" dy="1.0922" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
 <wire x1="-1.7526" y1="0.4064" x2="-1.9558" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
@@ -143,7 +140,6 @@
 <pin name="SCL" x="-15.24" y="0" length="middle" direction="in"/>
 <pin name="VDD" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
 <pin name="VSS" x="15.24" y="-5.08" length="middle" direction="pas" rot="R180"/>
-<pin name="NC" x="-15.24" y="-5.08" length="middle" direction="nc"/>
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
@@ -160,7 +156,6 @@
 <devices>
 <device name="" package="SHT4X_SEN">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
@@ -179,7 +174,6 @@
 </device>
 <device name="SHT4X_SEN-M" package="SHT4X_SEN-M">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
@@ -198,7 +192,6 @@
 </device>
 <device name="SHT4X_SEN-L" package="SHT4X_SEN-L">
 <connects>
-<connect gate="A" pin="NC" pad="5"/>
 <connect gate="A" pin="SCL" pad="2"/>
 <connect gate="A" pin="SDA" pad="1"/>
 <connect gate="A" pin="VDD" pad="3"/>
