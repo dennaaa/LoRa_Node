@@ -1347,7 +1347,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.11" y1="-1.5" x2="2.11" y2="1.5" width="0.05" layer="39"/>
 <wire x1="2.11" y1="1.5" x2="1.1" y2="1.5" width="0.05" layer="39"/>
 <wire x1="1.1" y1="1.5" x2="1.1" y2="1.8" width="0.05" layer="39"/>
-<circle x="-2.469" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.95" y="1.65" radius="0.1" width="0.2" layer="21"/>
 <text x="-1.88393125" y="2.02061875" size="1.019340625" layer="25">&gt;NAME</text>
 <text x="-2.181440625" y="-2.9625" size="1.0179" layer="27">&gt;VALUE</text>
 <smd name="1" x="-1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>

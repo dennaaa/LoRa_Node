@@ -2846,15 +2846,15 @@ Your Multi-CB Team
 <attribute name="VALUE" x="5.365" y="18.8728" size="1.27" layer="28" ratio="6" rot="SMR90"/>
 <attribute name="VENDOR" value="ON Semiconductor" x="-71.47" y="65.05" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="J1" library="ZX62D-B-5PA8" package="HIROSE_ZX62D-B-5PA8" value="ZX62D-B-5PA8" x="1.45" y="11.5" locked="yes" smashed="yes" rot="R270">
-<attribute name="AVAILABILITY" value="Bad" x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole " x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MF" value="Hirose" x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MP" value="ZX62D-B-5PA8" x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="5.601359375" y="14.65103125" locked="yes" size="0.813065625" layer="25" rot="R270"/>
-<attribute name="PACKAGE" value="None" x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PRICE" value="None" x="-3.63" y="-49.46" locked="yes" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="-2.5517" y="14.651340625" locked="yes" size="0.813146875" layer="27" rot="R270"/>
+<element name="J1" library="ZX62D-B-5PA8" package="HIROSE_ZX62D-B-5PA8" value="ZX62D-B-5PA8" x="1.45" y="11.5" smashed="yes" rot="R270">
+<attribute name="AVAILABILITY" value="Bad" x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="DESCRIPTION" value=" USB - micro B USB 2.0 Receptacle Connector 5 Position Surface Mount, Right Angle; Through Hole " x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MF" value="Hirose" x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MP" value="ZX62D-B-5PA8" x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="5.601359375" y="14.65103125" size="0.813065625" layer="25" rot="R270"/>
+<attribute name="PACKAGE" value="None" x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PRICE" value="None" x="-3.63" y="-49.46" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-2.5517" y="14.651340625" size="0.813146875" layer="27" rot="R270"/>
 </element>
 <element name="J3" library="B2B-PH-K-S_LF_SN" package="JST_B2B-PH-K-S(LF)(SN)" value="B2B-PH-K-S(LF)(SN)" x="10" y="20.5" locked="yes" smashed="yes" rot="R180">
 <attribute name="AVAILABILITY" value="Good" x="-14.13" y="58.6" locked="yes" size="1.778" layer="27" rot="R180" display="off"/>

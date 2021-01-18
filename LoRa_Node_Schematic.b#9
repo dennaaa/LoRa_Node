@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -24,11 +24,11 @@
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
@@ -49,7 +49,7 @@
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
@@ -166,6 +166,30 @@
 <circle x="48.26" y="20.39" radius="2" width="0.001" layer="42"/>
 <circle x="48.26" y="2.61" radius="2" width="0.001" layer="41"/>
 <circle x="48.26" y="2.61" radius="2" width="0.001" layer="42"/>
+<text x="16.5" y="20" size="0.8" layer="21" ratio="15" align="center">VBUS</text>
+<text x="19.1" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D0</text>
+<text x="21.6" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D1</text>
+<text x="24.1" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D2</text>
+<text x="26.7" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D5</text>
+<text x="29.2" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D6</text>
+<text x="31.8" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D7</text>
+<text x="34.3" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D9</text>
+<text x="36.9" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">D10</text>
+<text x="39.4" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">SDA</text>
+<text x="41.9" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">SCL</text>
+<text x="44.5" y="20" size="0.8" layer="21" font="vector" ratio="15" align="center">GND</text>
+<text x="16.5" y="2.8" size="0.6" layer="21" font="vector" ratio="15" align="center">3V3</text>
+<text x="19.1" y="2.8" size="0.6" layer="21" font="vector" ratio="15" align="center">MISO</text>
+<text x="21.6" y="2.8" size="0.6" layer="21" font="vector" ratio="15" align="center">SCK</text>
+<text x="24.2" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">MOSI</text>
+<text x="26.7" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A0</text>
+<text x="29.2" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A1</text>
+<text x="31.8" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A2</text>
+<text x="34.3" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A3</text>
+<text x="36.8" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A4</text>
+<text x="39.5" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">A5</text>
+<text x="41.9" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">AREF</text>
+<text x="44.5" y="3" size="0.8" layer="21" font="vector" ratio="15" align="center">GND</text>
 </plain>
 <libraries>
 <library name="0868AT43A0020E">

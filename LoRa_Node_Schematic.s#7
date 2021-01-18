@@ -1350,7 +1350,6 @@ DIN A4, landscape with location and doc. field</description>
 <circle x="-2.469" y="0.95" radius="0.1" width="0.2" layer="21"/>
 <text x="-1.88393125" y="2.02061875" size="1.019340625" layer="25">&gt;NAME</text>
 <text x="-2.181440625" y="-2.9625" size="1.0179" layer="27">&gt;VALUE</text>
-<circle x="-0.469" y="0.95" radius="0.1" width="0.2" layer="51"/>
 <smd name="1" x="-1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="2" x="-1.185" y="0" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
 <smd name="3" x="-1.185" y="-0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
@@ -13791,10 +13790,10 @@ Source: www.kingbright.com</description>
 <library name="0868AT43A0020E">
 <packages>
 <package name="XCVR_0868AT43A0020E">
-<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="21"/>
-<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="21"/>
-<circle x="-4.75" y="0" radius="0.25" width="0.2" layer="21"/>
+<wire x1="-2.5" y1="1" x2="2.5" y2="1" width="0.2" layer="51"/>
+<wire x1="-2.5" y1="-1" x2="2.5" y2="-1" width="0.2" layer="51"/>
+<rectangle x1="-2.25193125" y1="-0.250215625" x2="-0.75" y2="0.25" layer="51"/>
+<circle x="-4.5" y="1.5" radius="0.25" width="0.2" layer="21"/>
 <wire x1="-5" y1="5" x2="5" y2="5" width="0.05" layer="39"/>
 <wire x1="5" y1="5" x2="5" y2="-9" width="0.05" layer="39"/>
 <wire x1="5" y1="-9" x2="-5" y2="-9" width="0.05" layer="39"/>
