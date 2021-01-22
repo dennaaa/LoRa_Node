@@ -1347,7 +1347,7 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="2.11" y1="-1.5" x2="2.11" y2="1.5" width="0.05" layer="39"/>
 <wire x1="2.11" y1="1.5" x2="1.1" y2="1.5" width="0.05" layer="39"/>
 <wire x1="1.1" y1="1.5" x2="1.1" y2="1.8" width="0.05" layer="39"/>
-<circle x="-2.469" y="0.95" radius="0.1" width="0.2" layer="21"/>
+<circle x="-1.95" y="1.65" radius="0.1" width="0.2" layer="21"/>
 <text x="-1.88393125" y="2.02061875" size="1.019340625" layer="25">&gt;NAME</text>
 <text x="-2.181440625" y="-2.9625" size="1.0179" layer="27">&gt;VALUE</text>
 <smd name="1" x="-1.185" y="0.95" dx="0.6" dy="1.35" layer="1" roundness="15" rot="R270"/>
@@ -1905,8 +1905,8 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="4" x="0.7493" y="0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
-<wire x1="-1.8542" y1="0.4064" x2="-2.0574" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-2.0574" y1="0.4064" x2="-1.8542" y2="0.4064" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.0922" y1="0.9144" x2="-1.2954" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.2954" y1="0.9144" x2="-1.0922" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-0.8128" y1="-0.8128" x2="0.8128" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.8128" y1="-0.8128" x2="0.8128" y2="0.8128" width="0.1524" layer="51"/>

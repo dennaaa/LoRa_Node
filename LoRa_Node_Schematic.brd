@@ -8,9 +8,9 @@
 </settings>
 <grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -58,7 +58,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -2786,8 +2786,8 @@ Your Multi-CB Team
 <polygon width="0.254" layer="3" isolate="0.254">
 <vertex x="0" y="0"/>
 <vertex x="0" y="23"/>
-<vertex x="51" y="23"/>
-<vertex x="51" y="0"/>
+<vertex x="45.1" y="23"/>
+<vertex x="45.1" y="0"/>
 </polygon>
 <polygon width="0" layer="3" spacing="1.6764" pour="cutout">
 <vertex x="51" y="18.5"/>
@@ -2889,31 +2889,47 @@ Your Multi-CB Team
 <polygon width="0.1" layer="16" spacing="0.4" pour="hatch" isolate="0.5">
 <vertex x="0" y="23"/>
 <vertex x="0" y="0"/>
-<vertex x="51" y="0"/>
-<vertex x="51" y="4.2"/>
+<vertex x="40.9" y="0"/>
+<vertex x="40.9" y="4.2"/>
 <vertex x="34.1" y="4.2"/>
 <vertex x="34.1" y="15.1"/>
 <vertex x="30.6" y="15.1"/>
 <vertex x="30.6" y="19.8"/>
-<vertex x="41.3" y="19.8"/>
-<vertex x="41.3" y="18.6"/>
-<vertex x="51" y="18.6"/>
-<vertex x="51" y="23"/>
+<vertex x="40.9" y="23"/>
 </polygon>
 <polygon width="0.1" layer="1" spacing="0.4" pour="hatch" isolate="0.5">
 <vertex x="0" y="23"/>
 <vertex x="0" y="0"/>
-<vertex x="51" y="0"/>
-<vertex x="51" y="4.4"/>
-<vertex x="50.9" y="4.4"/>
-<vertex x="40.9" y="4.4"/>
-<vertex x="40.9" y="18.6"/>
-<vertex x="41" y="18.6"/>
-<vertex x="51" y="18.6"/>
-<vertex x="51" y="23"/>
+<vertex x="40.9" y="0"/>
+<vertex x="40.9" y="23"/>
 </polygon>
 <contactref element="R7" pad="2"/>
 <contactref element="U4" pad="2"/>
+<polygon width="0" layer="3" pour="cutout">
+<vertex x="45.3" y="2.2"/>
+<vertex x="44.7" y="2.2"/>
+<vertex x="44.7" y="2.9"/>
+<vertex x="45.3" y="2.9"/>
+</polygon>
+<polygon width="0" layer="3" pour="cutout">
+<vertex x="41" y="4.5"/>
+<vertex x="41" y="3.1"/>
+<vertex x="41" y="3"/>
+<vertex x="44.7" y="3"/>
+<vertex x="44.7" y="4.5"/>
+</polygon>
+<polygon width="0" layer="3" pour="cutout">
+<vertex x="41" y="18.5"/>
+<vertex x="45.4" y="18.5"/>
+<vertex x="45.4" y="20.1"/>
+<vertex x="41" y="20.1"/>
+</polygon>
+<polygon width="0" layer="3" pour="cutout">
+<vertex x="45.4" y="20.7"/>
+<vertex x="44.7" y="20.7"/>
+<vertex x="44.7" y="20.1"/>
+<vertex x="45.4" y="20.1"/>
+</polygon>
 </signal>
 <signal name="XIN32">
 <contactref element="U1" pad="1"/>
@@ -3341,8 +3357,8 @@ Your Multi-CB Team
 <polygon width="0.254" layer="2" spacing="0.254" isolate="0.254">
 <vertex x="0" y="23"/>
 <vertex x="0" y="0"/>
-<vertex x="51" y="0"/>
-<vertex x="51" y="23"/>
+<vertex x="40.8" y="0"/>
+<vertex x="40.8" y="23"/>
 </polygon>
 <wire x1="18.75" y1="5" x2="18.75" y2="7.3217" width="0.254" layer="1"/>
 <via x="18.75" y="5" extent="1-16" drill="0.2"/>

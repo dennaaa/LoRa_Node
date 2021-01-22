@@ -287,27 +287,6 @@
 </technology>
 </technologies>
 </device>
-<device name="SMALL" package="MICROBUILDER_RFMHCW_SMT">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="13"/>
-<connect gate="G$1" pin="ANT" pad="9"/>
-<connect gate="G$1" pin="DIO0" pad="14"/>
-<connect gate="G$1" pin="DIO1" pad="15"/>
-<connect gate="G$1" pin="DIO2" pad="16"/>
-<connect gate="G$1" pin="DIO3" pad="11"/>
-<connect gate="G$1" pin="DIO4" pad="12"/>
-<connect gate="G$1" pin="DIO5" pad="7"/>
-<connect gate="G$1" pin="GND" pad="1 8 10"/>
-<connect gate="G$1" pin="MISO" pad="2"/>
-<connect gate="G$1" pin="MOSI" pad="3"/>
-<connect gate="G$1" pin="NSS" pad="5"/>
-<connect gate="G$1" pin="RESET" pad="6"/>
-<connect gate="G$1" pin="SCK" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
 </devices>
 </deviceset>
 </devicesets>

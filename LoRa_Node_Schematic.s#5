@@ -1404,10 +1404,7 @@ DIN A4, landscape with location and doc. field</description>
 <library name="MCP73831-2ACI_OT">
 <packages>
 <package name="SOT95P280X145-5N">
-<wire x1="0.6096" y1="1.5494" x2="0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="-0.3048" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
-<wire x1="0.3048" y1="1.5494" x2="-0.3048" y2="1.5494" width="0" layer="21" curve="-180"/>
+<wire x1="0.6096" y1="1.5494" x2="-0.6096" y2="1.5494" width="0.1524" layer="21"/>
 <wire x1="-0.8636" y1="-1.5494" x2="0.8636" y2="-1.5494" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-1.5494" x2="0.8636" y2="-1.1938" width="0.1524" layer="51"/>
 <wire x1="0.8636" y1="-1.1938" x2="0.8636" y2="-0.7112" width="0.1524" layer="51"/>
@@ -1844,7 +1841,6 @@ DIN A4, landscape with location and doc. field</description>
 <pad name="S2" x="3.5125" y="0" drill="1.5" shape="square"/>
 <pad name="S3" x="-2.425" y="3" drill="0.85"/>
 <pad name="S4" x="2.425" y="3" drill="0.85"/>
-<circle x="-3.74" y="2.19" radius="2" width="0.001" layer="42"/>
 <wire x1="3.75" y1="1.6" x2="3.75" y2="2.9" width="0.127" layer="21"/>
 </package>
 </packages>
@@ -1905,8 +1901,8 @@ DIN A4, landscape with location and doc. field</description>
 <smd name="4" x="0.7493" y="0.4" dx="0.7112" dy="0.3048" layer="1"/>
 <wire x1="-0.9144" y1="-0.9144" x2="0.9144" y2="-0.9144" width="0.1524" layer="21"/>
 <wire x1="0.9144" y1="0.9144" x2="-0.9144" y2="0.9144" width="0.1524" layer="21"/>
-<wire x1="-1.0922" y1="0.9144" x2="-1.2954" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-1.2954" y1="0.9144" x2="-1.0922" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.2192" y1="0.9144" x2="-1.4224" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
+<wire x1="-1.4224" y1="0.9144" x2="-1.2192" y2="0.9144" width="0.1524" layer="21" curve="-180"/>
 <text x="-2.54" y="-2.54" size="1.27" layer="21" ratio="6" rot="SR0">&gt;Value</text>
 <wire x1="-0.8128" y1="-0.8128" x2="0.8128" y2="-0.8128" width="0.1524" layer="51"/>
 <wire x1="0.8128" y1="-0.8128" x2="0.8128" y2="0.8128" width="0.1524" layer="51"/>
